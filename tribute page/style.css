@@ -1,0 +1,36 @@
+body {
+  background-color: aliceblue;
+}
+
+#title {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#img-div {
+  text-align: center;
+  background-color: skyblue;
+}
+#image {
+    margin-left: auto;
+  margin-right: auto;
+
+  display: block;
+  max-width: 400px;
+}
+#img-caption {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+h2 {
+  text-align: center;
+}
+
+
+li {
+ 
+  padding-left: 400px;
+    padding-right: 400px;
+  padding-top: 20px;
+}
