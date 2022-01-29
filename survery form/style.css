@@ -1,20 +1,88 @@
+body {
+  background-color: #b6a6b3;
+}
+
 #title {
   text-align: center;
+  color: #E1DBE0;
+border-color: 6D636B;
+  border-style: solid;
+  border-width: 4px;
+
 }
 
 #description {
-  text-align: center
+  text-align: center;
+  background-color: #6D636B;
+    color: #E1DBE0;
 }
 
 #survey-form {
-  font-family: monospace;
-  text-align: center;
-  background-color: aliceblue;
+  
+  background-color: #e8dcdc;
+ 
   margin-left: 320px;
   margin-right: 320px;
   padding-top: 20px;
   padding-bottom: 20px;
   psotion: absolute;
-  border-color: skyblue;
+  border-color: #A29A9A;
   border-style: solid;
+  border-radius: 10px;
+ cursor: pointer;
+}
+
+.gen {
+  display: block;
+}
+
+.age {
+  margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.email {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.name {
+    margin-top: 20px;
+  margin-left: 20px;
+}
+
+#grade {
+  margin-left: 20px;
+}
+
+#checkbox {
+  margin-left: 20px;
+}
+
+#dropdown {
+  display: block;
+  margin-left: 20px;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+
+#submit {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #7F747D;
+  font-size: 25px;
+}
+
+label {
+  font-size: 15px;
+  color: white;
+  background-color: #BBB2B2;
+  
 }
