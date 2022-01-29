@@ -1,0 +1,20 @@
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center
+}
+
+#survey-form {
+  font-family: monospace;
+  text-align: center;
+  background-color: aliceblue;
+  margin-left: 320px;
+  margin-right: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  psotion: absolute;
+  border-color: skyblue;
+  border-style: solid;
+}
