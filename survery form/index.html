@@ -3,6 +3,10 @@
 <form id="survey-form"> 
   
    <div class= "name">
+     <h2 class= "set">
+       Enter the following information:
+     </h2>
+     
   <label id= "name-label">Name:</label>
   <input type= "text" placeholder= "Name" id= "name" required></input>
   </div>
@@ -19,33 +23,44 @@
 
 <div id="grade">
   <h2 id= "grades">Which grade are you in?</h2>
-  <input value= "name" name = "grade" type= "radio">9th grade</input>
-  <input value= "name" name = "grade" type= "radio">10th grade</input>
-  <input  value= "name" name = "grade" type= "radio">11th grade</input>
-  <input value= "name" name = "grade" type= "radio">12th grade</input>
+
+  <div class= "full">
+  <label class= "gen" ><input value= "name" name = "grade" type= "radio">9th grade</input></label>
+  
+  <label class= "gen"><input  value= "name" name = "grade" type= "radio">10th grade</input></label>
+<label class= "gen">
+  <input   value= "name" name = "grade" type= "radio">11th grade</input></label>
+ <label class= "gen" > <input value= "name" name = "grade" type= "radio">12th grade</input></label>
+</div>
 </div>
   
      <div id= "checkbox">
        <h2 id="genre">What is your favorite book genre?</h2>
-       <input value= "box"  type= "checkbox">Comedy</input>
-       <input value= "box"  type= "checkbox">Romance</input>
+       
+         <div class= "full">
+           
+           <label class= "gen" ><input  value= "box"  type= "checkbox">Comedy</input></label>
+       
+       <label class= "gen" > <input value= "box"  type= "checkbox">Romance</input></label>
 
-       <input value= "box" type= "checkbox">
-         Mystery
-       </input>
+       <label class= "gen" ><input  value= "box" type= "checkbox">Mystery
+         </input></label>
 
-       <input value= "box" type= "checkbox">Adventure</input>
- <input value= "box" type= "checkbox">Fantasy</input>
- <input value= "box"type= "checkbox">Horror</input>
- <input value= "box" type= "checkbox">Thriller</input>
- <input value= "box"  type= "checkbox">History</input>
-
+<label class= "gen" ><input  value= "box" type= "checkbox">Adventure</input></label>
+<label class= "gen" ><input  value= "box" type= "checkbox">Fantasy</input></label>
+<label class= "gen">
+  <input  value= "box"type= "checkbox">Horror</input></label>
+<label class= "gen" ><input value= "box" type= "checkbox">Thriller</input></label>
+<label class= "gen" >
+  <input  value= "box"  type= "checkbox">History</input></label>
+</div>
 </div>
 
 <div id="dropdown">
-  <p> What borough do you live in?</p>
+  <h2> What borough do you live in?</h2>
+  
   <select required>
-    <option>Select an option</option>
+    <option disabled selected value>Select an option</option>
     <option>Queens</option>
         <option>Manhattan</option>
 
@@ -55,12 +70,13 @@
 
         <option>Staten Island</option>
 
-</div>
+    
+  </div>
   
 <textarea placeholder= "any additional information"></textarea>
-  
+ 
   <button id= "submit" type= "submit">Submit</button>
-  
+
 </form>
 
 
