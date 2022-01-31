@@ -1,0 +1,229 @@
+body {
+  background-color: aliceblue;
+}
+
+#email {
+  display: block;
+}
+iframe {
+  display: block;
+}
+#header {
+  display: flex;
+  position: fixed;
+  background-color: aliceblue;
+  top:  0;
+ 
+}
+
+#header-img {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+#form {
+  margin-top: 80px
+}
+
+@media screen {
+  @media (max-width: auto;)
+}
+
+.nav-link {
+  color: black;
+    background-color: aliceblue;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding-right: 40x;
+  background-color: aliceblue;
+  
+}
+
+.navs-link {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding-right: 0x;
+  margin-top: 15px;
+  background-color: aliceblue;
+font-size: 20px;
+  font-family: monospace;
+  border-style: solid;
+  border-color: black;
+}
+
+.nav-link {
+  color: black;
+    background-color: aliceblue;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding-right: 40x;
+  background-color: aliceblue;
+  
+}
+
+.navs-link {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding-right: 0x;
+  margin-top: 15px;
+  background-color: aliceblue;
+font-size: 20px;
+  font-family: monospace;
+  border-style: solid;
+  border-color: black;
+}
+
+#nav-bar {
+  margin-left: 670px;
+    background-color: aliceblue;
+font-size: 20px;
+}
+
+#form {
+  text-align: center;
+}
+#title{
+  text-align:center;
+  font-size: 25px;
+  font-family: monospace;
+  border-style: solid;
+  border-radius: 20px;
+}
+input {
+  margin: 0 auto;
+  font-family: serif;
+  font-size: 18px;
+  border-style: solid;
+  border-color: black;
+  
+}
+
+#submit {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: monospace;
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  
+}
+
+#submit:hover {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: monospace;
+  background-color: black;
+  border-color: white;
+  border-radius: 20px;
+  color: white
+}
+
+#video {
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.box {
+  display: flex;
+}
+.in {
+  display: block;
+    margin: 0 auto;
+border-color: black;
+    margin-top: 30px;
+
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 20px;
+    padding-right: 20px;
+  padding-bottom: 30px;
+    font-family: monospace;
+
+}
+
+.inn {
+  display: block;
+    margin: 0 auto;
+border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 40px;
+    padding-right: 40px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  font-family: monospace;
+  
+}
+
+.innn {
+  display: block;
+    margin: 0 auto;
+border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 47px;
+    padding-right: 47px;
+  padding-bottom: 20px;
+    margin-top: 30px;
+  font-family: monospace;
+
+}
+
+
+.in:hover {
+  display: block;
+    margin: 0 auto;
+border-color: black;
+  box-shadow: 5px 5px;
+  margin-top: 40px;
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 20px;
+    padding-right: 20px;
+  padding-bottom: 20px;
+    font-family: monospace;
+
+}
+
+.inn:hover {
+  display: block;
+    margin: 0 auto;
+border-color: black;
+  box-shadow: 5px 5px;
+  margin-top: 40px;
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 40px;
+    padding-right: 40px;
+  padding-bottom: 20px;
+    font-family: monospace;
+
+}
+
+.innn:hover {
+  display: block;
+    margin: 0 auto;
+border-color: black;
+  box-shadow: 5px 5px;
+  margin-top: 40px;
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 47px;
+    padding-right: 47px;
+  padding-bottom: 20px;
+  font-family: monospace;
+
+}
+
+
+.b > #pricing {
+  background-color: blue;
+}
