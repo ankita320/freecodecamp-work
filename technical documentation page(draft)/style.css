@@ -1,0 +1,20 @@
+@media(max-width: 1000px;) {
+  p {
+    font-size: 15px;
+  }
+}
+
+.nav-link {
+  display: block;
+}
+.whole {
+  display: flex;
+}
+
+#main-doc {
+  margin-left: 30px;
+}
+
+code {
+  display: block;
+}
