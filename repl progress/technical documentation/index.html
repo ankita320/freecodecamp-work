@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HTML & CSS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<div class= "whole">
+<nav id = "navbar" >
+   <header   id= "html">
+      HTML & CSS
+    </header>
+  <a href="#Header_Tags" class= "nav-link" id= "Header_Tags">Header Tags</a>
+  
+   <a href="#Text_Tags" class= "nav-link" id= "Text_Tags">
+Text Tags    </a>
+  <a href="#Inputs_in_Tags"  class= "nav-link" id= "Inputs_in_Tags">
+Inputs in Tags    </a> 
+  <a href="#Form_Tags"class= "nav-link"  id= "Form_Tags">
+Form Tags  </a> 
+  <a href="#Color" class= "nav-link" id= "Color">
+Color    </a> 
+  <a href="#Layout" class= "nav-link" id= "Layout">
+Layout    </a> 
+  <a href="#Animation" class= "nav-link" id= "Animation">
+Animation    </a>
+  
+   <a href="#Flexbox" class= "nav-link" id= "Flexbox">
+      Flexbox
+    </a>
+</nav>
+<main  id= "main-doc">
+ 
+  
+       <section id= "Header_Tags"class= "main-section">
+     <header id= "Header_Tags">
+       Header Tags</header>
+         <p>The headers tags are used to display titles, subtitles, and etc. Displayed below are the main 6 header tags!(The only 6!)</p>
+
+    <code>
+      
+      h1
+      h2
+      h3
+      h4
+      h5
+      h6
+    </code>
+  <li>
+    The list runs from largest to smallest
+  </li>
+       <li>
+    To use the tags, border them with with < & > for the opening tag and < / & > for the closing tag. 
+         </li>
+         <li>
+           It can look something like this:
+         < h1 > < / h1 >
+  </li>
+           
+  </section>
+  
+   <section id= "Text_Tags" class= "main-section">
+      <header id= "Text_Tags">
+        Text Tags
+    </header>
+          <p>These tags, and every other tag in HTML are formatted as shown in the header tags. These are used for the text in the main body.</p>
+          <p>The tags below are just some of the many text tags there are.</p>
+ <code>p, ul, ol, li, i, b</code>
+     <li>< p > < / p >: This is the man tag used for text and paragraph writing</li>
+            <li>< ul > < / ul >: This tag is used around unordered(bulleted) list tags</li>
+
+                   <li>< ol > < / ol >: This tag is used around ordered(numbered) list tags</li>
+     <li>< li > < / li >:This tag is used for the actual list lines. The tag around this text is actually a list tag!</li>
+                     <li>< i > < / i >: This tag is used to <i>italize</i> text.</li>
+       <li>< b > < / b >: This tag is used to make text <b>bold.</b></li>
+  
+  </section>
+   <section id= "Form_Tags"class= "main-section">
+      <header id= "Form_Tags">
+        Form Tags
+    </header>
+          <p>This are some tags used in creating forms!</p>
+          
+ <code>form, div, button, [type= "submit", "radio", etc.]</code>
+     <li>< form > < / form >: Creates the form</li>
+          <li>< div >< / div >: Creates different sections</li>
+
+          <li>< button >< / button >: Creates buttons!</li>
+
+          <li>type = "": can create different types of options, buttons, and etc.; radio: option button, checkbox: checkbox, submit: submits to a different site</li>
+
+  </section>
+   <section id= "Inputs_in_Tags" class= "main-section">
+      <header id= "Inputs_in_Tags">
+        Inputs in Tags
+    </header>
+          <p>These are used for created different types, mentioned above, used to collaborate with JavaScript, and etc.</p>
+     
+
+     <code>name = "", type = "", value = ""</code>
+     <li>type = "": used to format different kinds of text and buttons</li>
+     <li>value = "": adds a value to tag</li>
+     <li></li>
+
+  </section>
+   <section id= "Color"class= "main-section">
+      <header id= "Color">
+        Color
+    </header>
+     
+     <p>In CSS, you can change the color of all the differen elements your created in the HTML.</p>
+               <p>Below are some ways, and general pattern in how the color codes are presented.</p>
+
+     <code> color</code>
+          <code> background-color</code>
+
+          <code> border-color</code>
+
+          
+
+     <li> color{}: changes the color of the writing</li>
+      <li> background-color: changes the color of the background of the writing or body of element</li>
+      <li> border-color: changes the color of the border around the writing</li>
+  </section>
+  
+   <section id= "Layout" class= "main-section">
+      <header id= "Layout">
+
+Layout    </header>
+          <p>These are different ways to format the layout in CSS. You can change the placement, center, and overall the way things are formatted!</p>
+               <p>Below are the different ways to change the layout!</p>
+
+<code>margin-top,margin-left,margin-right,margin-bottom 
+     </code>
+     <code>padding-top,padding-left,padding-right,padding-bottom 
+     </code>
+     <code>font-size, font-weight, width, height
+     </code>
+     <code> display: (block, flex)</code>
+     <li>margin: changes how farther the text is up, down, left or right. This is only for text
+     </li>
+      <li>padding: changes how farther the images or butons is up, down, left or right.
+     </li>
+      <li>size, weight, width, length: changes the size of different text, image, etc. elements.
+     </li>
+  </section>
+  
+   <section id= "Animation" class= "main-section">
+      <header id= "Animation">
+
+        Animation
+    </header>
+          <p>Animation on CSS allows you to move elements around inl live action and have changing color, layout, etc. elements</p>
+         
+
+<code>@keyframes {0%, 50%, 100%}</code>
+     <code>animation-duration:</code>
+
+     <li>this is how you can change the animation at different segments for a full movement. You can also change the duration in terms of time.</li>
+  </section>
+  
+   <section id= "Flexbox"class= "main-section">
+      <header id= "Flexbox">
+
+        Flexbox
+    </header>
+          <p>Flexbox is another way to change the format of different elements</p>
+               <p>Below are some of the ways</p>
+
+<code>Justify-content:, align-content, align-text:, </code>
+     <li>These CSS tools are used to center, brings things to the end and more!</li>
+  </section>
+</main>
+
+  </div>    <script src="script.js"></script>
+  </body>
+</html>
