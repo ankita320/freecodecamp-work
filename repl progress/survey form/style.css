@@ -1,0 +1,140 @@
+body {
+  background-color: #b6a6b3;
+} 
+
+#title {
+
+  text-align: center;
+  color: #E1DBE0;
+border-color: 6D636B;
+  border-style: solid;
+  border-width: 4px;
+  overflow: hidden;
+position: fixed;
+top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #b6a6b3;
+
+}
+
+.lala {
+ 
+  overflow: hidden;
+position: fixed;
+top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #b6a6b3;
+}
+
+
+input {
+  background-color: #f7f6f6;
+  border-color: #A29A9A;
+    border-width: 2px;
+  border-style: solid;
+}
+
+#description {
+  text-align: center;
+  background-color: #6D636B;
+    color: #E1DBE0;
+    margin-top: 90px;
+}
+
+#survey-form {
+  margin-top: 150px;
+  background-color: #e8dcdc;
+ 
+  margin-left: 320px;
+  margin-right: 320px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  psotion: absolute;
+  border-color: #A29A9A;
+  border-style: solid;
+  border-radius: 10px;
+ cursor: pointer;
+}
+
+.gen {
+  display: block;
+}
+
+.age {
+  margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.email {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.name {
+    margin-top: 20px;
+  margin-left: 20px;
+}
+
+#grade {
+  margin-left: 20px;
+}
+
+#checkbox {
+  margin-left: 20px;
+}
+
+#dropdown {
+  display: block;
+  margin-left: 20px;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+    border-color: #A29A9A;
+    border-width: 2px;
+  background-color: #f7f6f6;
+}
+
+#submit {
+  margin-top: 20px;
+  background-color: #6D636B;
+  color: #e8dcdc;
+  font-size: 17px;
+  border-radius: 20px;
+  border-color: #6D636B;
+  border-style: solid;
+  
+}
+
+#submit:hover {
+  margin-top: 20px;
+  background-color: #e8dcdc;
+  color: #6D636B;
+  font-size: 17px;
+  border-radius: 20px;
+  border-color: #6D636B;
+  border-style: solid;
+}
+
+h2 {
+  color: #7F747D;
+  font-size: 25px;
+}
+
+label {
+  font-size: 15px;
+  color: #6D636B;
+  
+}
+
+select {
+  color: #6D636B;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #e8dcdc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
