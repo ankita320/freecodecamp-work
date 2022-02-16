@@ -1,0 +1,75 @@
+#navbar {
+  position: fixed;
+  background-color: #F5FFC6;
+  top: 0;
+  width: 100%;
+      left: 0;
+
+  overflow: auto;
+    padding-bottom: 20px;
+padding-top: 20px;
+  border-bottom-color: #b666d2;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4dff;
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+
+}
+
+#welcome-section {
+  width: 100%;
+ margin-left: -10px;
+ padding-right: 18px;
+
+  overflow: auto;
+  padding-top: 170px;
+  background-color: #C9a0ff;
+   padding-bottom: 200px; 
+
+
+}
+
+#welcome-title 
+{
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Raleway', sans-serif;;
+  font-size: 60px;
+  color: white;
+}
+
+.pos {
+  text-align: center;
+  font-size: 27px;
+ color:#0047ab;
+  margin-top: -40px;
+    font-weight: bold;
+ 
+  font-family: 'Raleway', sans-serif;
+}
+
+#projects {
+  background-color: #C9FFE5;
+    top: 0;
+  width: 100%;
+  overflow: auto;
+  margin-left: -10px;
+  padding-right: 18px;
+  
+  
+}
+
+#project-title {
+  color: #64be9f;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+}
