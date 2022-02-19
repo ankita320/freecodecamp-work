@@ -13,6 +13,17 @@ padding-top: 20px;
   border-bottom-style: solid;
 }
 
+
+a:hover {
+  text-decoration: none;
+  color: #DA70D6;
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+
+}
+
 a {
   text-decoration: none;
   color: #4d4dff;
@@ -58,18 +69,99 @@ a {
 #projects {
   background-color: #C9FFE5;
     top: 0;
-  width: 100%;
   overflow: auto;
-  margin-left: -10px;
-  padding-right: 18px;
+   margin-left: -10px;
+  margin-right: -8px;
+  height: 700px;
+  padding-bottom: 20px;
   
   
 }
 
 #project-title {
-  color: #64be9f;
+  color: black;
   font-family: 'Raleway', sans-serif;
   font-size: 40px;
   text-decoration: underline;
   text-align: center;
+font-weight: 900;
+}
+
+#inline {
+  display: flex;
+}
+
+figure {
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+figcaption {
+  background-color:rgb(235, 255, 198);
+  margin-top: -5px;
+   border-top-color: white;
+  border-top-style: solid;
+  border-top-width: 3px;
+  color: #0047ab;
+  font-size: 24px;
+  padding-top: 5px;
+    padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+
+
+
+}
+
+figcaption:hover{
+  color: #DE3163;
+  background-color:rgb(235, 255, 198);
+  margin-top: -5px;
+   border-top-color: #bea7ff;
+  border-top-style: solid;
+  border-top-width: 3px;
+  font-size: 24px;
+  padding-top: 5px;
+    padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+
+}
+
+
+
+#contact {
+  background-color: #CCCCFF;
+  top: 0;
+  overflow: auto;
+   margin-left: -10px;
+  margin-right: -8px;
+  height: 400px;
+}
+
+#mee {
+  border-radius: 150px;
+  border-color: rgb(70, 131, 167);
+  border-style: solid;
+  border-width:3px;
+  
+}
+
+#me {
+ text-align: center;
+}
+
+#name {
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#namee {
+font-size: 70px;
+font-weight: 1000;
+text-align: center;
+font-family: 'Raleway', sans-serif;
 }
